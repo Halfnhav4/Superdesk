@@ -1,11 +1,12 @@
 define([
 	'providers',
 	'jquery',
-
+    'gizmo/superdesk',
+     config.guiJs('livedesk', 'action'),
     'jquery/tmpl',
     'jqueryui/draggable',
     'providers/sms/adaptor',
-    config.guiJs('livedesk', 'providers-templates'),
+     config.guiJs('livedesk', 'providers-templates'),
     'tmpl!livedesk>providers/sms',
     'tmpl!livedesk>items/item',
     'tmpl!livedesk>items/sources/sms',
